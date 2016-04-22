@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+  <script src="array.js"></script>
+  <script src="jquery-2.2.3.min.js"></script>
+		<meta charset="UTF-8">	
+		<title>Beer List</title>  
+		<!-- link to an external style sheet (best practice with style sheet)-->
+		<link href="css/styles.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body class="page"><!-- everything that is visual goes in the body tag  -->
+		<header>
+			<h1>C.Hess Beer List</h1> <!-- only h1 per page (for SEO purposes) --> 	
+		</header>
+		<div id="beertable">
+          <table id="myBeerTable" border="1">
+            <thead>
+            <tr>
+              <td>Beer Name</td> 
+              <td>Brewery</td>
+              <td>Style</td>
+              <td>Location</td>
+              <td>Date</td>
+              <td>Rank</td>    
+            </tr>
+            </thead>
+            <tbody id="myBeerData"> 
+            </tbody>
+          </table>
+          <button type="button">Add New Beer</button>
+        </div>
+        
+        <div id="beerform">
+		    <form>
+          <input  id="beername" type="text" placeholder="Beer Name">
+          <input type="text" id="breweryname" placeholder="Brewery">
+          <input type="text" id="style" placeholder="Beer Style">
+          <input type="text" id="location" placeholder="On the couch">
+          <input type="date" name="date" id="date">
+          <input type="number" max="5" min="0" id="rank" placeholder="2">
+          <button type="submit" id-"submit">Submit</button>   
+          <button type="button" id-"show">Show</button>       
+        </form>
+        </div><
+        <div id="display"></div>
+        <script console.log beername;></script>
+
+	</body>
+</html>
